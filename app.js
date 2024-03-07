@@ -18,5 +18,6 @@ nextBtn.addEventListener("click", () => {
 });
 
 nextBtn.addEventListener("click", () => {
+  cardText.textContent = "Loading...";
   nextBtn.setAttribute("class", "btn btn-danger");
 });
